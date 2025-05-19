@@ -19,15 +19,18 @@ A high-performance, multithreaded market simulator that models order book behavi
 
 ## 📁 File Structure
 low-latency-market-simulator/
-├── main.cpp           # Entry point with threading and benchmark logic
-├── order_book.h       # OrderBook class definition
-├── order_book.cpp     # OrderBook method implementations
-├── utils.h            # Timer utility class (optional)
-├── utils.cpp          # Timer implementation (optional)
-├── orders_1.txt       # Sample buy/sell order stream (input file 1)
-├── orders_2.txt       # Sample buy/sell order stream (input file 2)
-├── Makefile           # Build instructions
-└── README.md          # Project overview and documentation
+
+| File / Folder        | Description                                           |
+|----------------------|-------------------------------------------------------|
+| `main.cpp`           | Entry point with threading and benchmark logic        |
+| `order_book.h`       | `OrderBook` class definition                          |
+| `order_book.cpp`     | `OrderBook` method implementations                    |
+| `utils.h`            | Timer utility class (optional)                        |
+| `utils.cpp`          | Timer implementation (optional)                       |
+| `orders_1.txt`       | Sample buy/sell order stream (input file 1)           |
+| `orders_2.txt`       | Another sample order stream (input file 2)            |
+| `Makefile`           | Build instructions                                    |
+| `README.md`          | Project overview and documentation                    |
 
 ---
 
